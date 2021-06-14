@@ -37,3 +37,15 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { filter, find, get, sortBy } from 'lodash';
 
 import { StatsPanel, EnergyWidget } from 'orchestrate-components';
+
+const useStyles = makeStyles(() => ({
+  container: {
+    // ...
+  },
+}));
+
+export default function Component() {
+  const classes = useStyles();
+
+  return null;
+}
